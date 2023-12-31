@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    user-select: none;
+}
+
+.title{ 
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 20px;
+    background-color: #A0C4E2;
+    color: cornflowerblue;
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.card {
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+    border-radius: 5px;
+    backdrop-filter: blur(14px);
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    text-align: center;
+}
+
+.weather{
+    width: 500px;
+    height: 600px;
+}
+
+span.material-symbols-outlined{
+    font-size: 35px;
+    padding-left: 15px;
+    color: grey;
+}
+
+.location{
+    width: 350px;
+    padding-right: 10px;
+    height: 48px;
+    border-style: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-left: 15px;
+    font-size: 32px;
+    font-weight: 600;
+    outline: none;
+    background-color: rgba(184, 184, 184, 0.055);
+    transition: box-shadow 0.3s ease; /* Add a smooth transition effect */
+    color: rgb(0, 0, 0, 0.58);
+}
+
+.highlight{
+    box-shadow: 0 0 10px grey; /* Highlighted border color with a blur radius */
+}
+
+.searchBar{
+    border: 2px solid grey;
+    width: 400px;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transform: translate(50px, 0);
+}
+
+.weatherImgDiv{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weatherImg{
+    width: 60%;
+    max-height: 200px;
+}
+
+.temp{
+    color: white;
+    font-size: 65px;
+    font-weight: 600;
+}
+
+.temp span{
+    font-size: 24px;
+    position: absolute;
+}
+
+.sky{
+    color: white;
+    font-size: 20px;
+}
+
+.additional-info{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0 0 0;
+
+}
+
+.humidity{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.additional-info .humidity .material-icons {
+    font-size: 100px;
+    padding-right: 10px;
+    color: #7fb4df;
+}
+
+.wind{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.additional-info .wind .material-icons {
+    font-size: 85px;
+    padding-right: 10px;
+    color: #7fb4df;
+}
