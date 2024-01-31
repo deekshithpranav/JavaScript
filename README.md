@@ -13,6 +13,8 @@ I have a solid understanding of the basics of JavaScript, including variables, i
 ## Daily Files 📁
 
 - [Day 1]: Created a To-Do list from scratch.
+- [Day 2]: Made a site to view weather using a weather API.
+
 
 ## Notes 📝
 
